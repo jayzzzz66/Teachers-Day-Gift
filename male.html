@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teachers' Day Sir!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="card">
+        <img src="c:\Users\Jay\Downloads\Sir.jpg" alt="Sir Photo" class="teacher-photo" id="sirPhoto">
+        <h1>Happy Teachers' Day, Sir! 👨‍🏫</h1>
+        
+        <div class="message-box">
+            <p>Dear Sir,</p>
+            <p>Thank you for your infinite patience, wisdom, and dedication. You don't just teach lessons from textbooks; you inspire us to be better people every single day.</p>
+            <p>We are truly grateful to have you as our class adviser! </p>
+            <br>
+            <p><strong>— From your favorite section BSIT 2.1A</strong></p>
+        </div>
+
+        <div class="btn-container">
+            <a href="index.html" class="btn btn-primary">Start Over 🔄</a>
+        </div>
+    </div>
+
+    <script>
+        // Trigger celebratory confetti on page load
+        window.onload = function() {
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+        };
+    </script>
+</body>
+</html>
